@@ -44,7 +44,7 @@ uses the [Blade](https://laravel.com/docs/8.x/blade) templating system.
     
     ```
 
-1. Configure Database, SMTP and Smarty Streets Keys inside `.env` file:
+4. Configure Database, SMTP and Smarty Streets Keys inside `.env` file:
     1. Database
     ```
     DB_CONNECTION=mysql
@@ -70,7 +70,7 @@ uses the [Blade](https://laravel.com/docs/8.x/blade) templating system.
     SMARTYSTREETS_KEY=
     ```
 
-1. Create MySQL Database:
+5. Create MySQL Database:
      ```shell script
     mysql -u root -p
 
@@ -78,25 +78,25 @@ uses the [Blade](https://laravel.com/docs/8.x/blade) templating system.
     
     ```
 
-1. Generate key for `.env` file:
+6. Generate key for `.env` file:
     ```shell script
     php artisan key:generate
     
     ```
 
-1. Migrate database:
+7. Migrate database:
     ```shell script
     php artisan migrate
     
     ```
 
-1. Run / Execute:
+8. Run / Execute:
     ```shell script
     php artisan serve
     
     ```
 
-1. Open browser:
+9. Open browser:
     ```
     http://localhost:8000
     ````
