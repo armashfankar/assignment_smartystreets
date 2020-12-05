@@ -31,14 +31,14 @@ uses the [Blade](https://laravel.com/docs/8.x/blade) templating system.
 
     ```
 
-1. Install the requirements for the repository using the `composer`:
+2. Install the requirements for the repository using the `composer`:
    ```shell script
     cd assignment_smartystreets/
     composer install
     
     ```
 
-1. Copy `.env.example` to create `.env` file:
+3. Copy `.env.example` to create `.env` file:
     ```shell script
     cp .env.example .env
     
